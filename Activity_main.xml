@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Input for city name -->
+    <EditText
+        android:id="@+id/edtCity"
+        android:hint="Enter City Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Button to fetch weather -->
+    <Button
+        android:id="@+id/btnWeather"
+        android:text="Get Weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <!-- TextView to display weather info -->
+    <TextView
+        android:id="@+id/txtWeather"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
